@@ -1,0 +1,55 @@
+﻿@model IEnumerable<BookApi.Models.Book>
+
+@{
+    ViewBag.PageTitle = "Harry Potter Books";
+}
+
+<head>
+    <style>
+        .title {
+            color: antiquewhite;
+        }
+
+        body {
+            background-image: url("https://www.goodfreephotos.com/cache/art-and-illustrations/creepy-witch-in-fantasy-blue-landscape-with-lightning_800.jpg?cached=1522408074");
+            background-size: cover;
+        }
+
+        .row-flex {
+            display: flex;
+            flex-wrap: wrap;
+            background-color: darkslategrey;
+            padding: 2px;
+        }
+
+            .row-flex > div {
+                background-color: antiquewhite;
+                width: 132px;
+                margin: 10px;
+                flex-wrap: wrap;
+                text-align: center;
+                line-height: 24px;
+                font-size: 18px;
+                padding: 2px;
+            }
+    </style>
+</head>
+<h2 class="title">@ViewBag.PageTitle</h2>
+<body>
+    <div class="row-flex">
+
+        <div class="text-center" style="width:276px;">
+            <h1 class="display-4">Andrew Hewitson</h1>
+            <h2>COMP 3973 - Assignment 1</h2>
+            <p>October 13, 2019</p>
+        </div>
+
+        @foreach (var item in Model)
+        {
+            <div>
+                <img src="@Url.Content(item.SmallThumbnail)" alt="Image" />
+                <p> @Html.ActionLink(item.Title, "Display", "Home", new { id = item.ISBN_10 })</p>
+
+            </div>
+        }
+</body>

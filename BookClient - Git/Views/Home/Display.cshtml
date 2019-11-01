@@ -1,0 +1,44 @@
+﻿@model BookApi.Models.Book
+@{
+    ViewBag.Title = "Display";
+}
+    <style>
+        body {
+            background-image: url("https://www.goodfreephotos.com/cache/art-and-illustrations/creepy-witch-in-fantasy-blue-landscape-with-lightning_800.jpg?cached=1522408074");
+            background-size: cover;
+        }
+
+            img{
+                float: left;
+                padding: 25px;
+            }
+            .display {
+                 display: inline-block;
+                background-color: antiquewhite;
+                text-align: left;
+                line-height: 20px;
+                font-size: 18px;
+                padding: 25px;
+            }
+    </style>
+    <body>    
+        <div class="display">
+            <h3>@Model.Title</h3>
+            <img src="@Url.Content(Model.SmallThumbnail)" alt="Image" />
+            <br />
+            <b>Author: </b>
+            <p>@Model.Authors </p>
+            <b>Publisher: </b>
+            <p> @Model.Publisher</p>
+            <b>Published Date: </b>
+            <p> @Model.PublishedDate</p>
+            <b> ISBN_10 #: </b>
+            <p>
+                @Model.ISBN_10
+            </p><br />
+            <b>Description: </b>
+            <p>
+                @Model.Description
+            </p>
+        </div>
+    </body>
