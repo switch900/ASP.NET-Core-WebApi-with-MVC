@@ -17,11 +17,11 @@ To help the marker test your application, seed the appropriate identity framewor
 Users do not see menu items that they do not have access to unless they are authenticated
 Deploy your application to Azure SUBMISSION
 
-Screen shot from WebAPI:
+<strong>Screen shot from WebAPI:</strong>
 <img src="https://github.com/switch900/Comp3973_Assign_01/blob/master/BookApi.PNG" alt="Smiley face" width="800">
 
-Screen shot of Login Page:
+<strong>Screen shot of Login Page:</strong>
 <img src="https://github.com/switch900/Comp3973_Assign_01/blob/master/LoginPage.PNG" alt="Smiley face" width="800">
 
-Screen shot of Client page:
+<strong>Screen shot of Client page:</strong>
 <img src="https://github.com/switch900/Comp3973_Assign_01/blob/master/BookClient.PNG" alt="Smiley face" width="800">
