@@ -34,7 +34,13 @@ Deploy your application to Azure
 </kbd>
 
 
-<h4>Screen shot of Client page:</h4>
+
+<h4>Screen shot of Clientside Mainpage:</h4>
 <kbd>
 <img src="https://github.com/switch900/Comp3973_Assign_01/blob/master/BookClient.PNG" alt="Smiley face" width="800">
+</kbd>
+
+<h4>Screen shot of Clientside Detailpage:</h4>
+<kbd>
+<img src="https://github.com/switch900/Comp3973_Assign_01/blob/master/DetailPage.PNG" alt="Smiley face" width="800">
 </kbd>
