@@ -18,22 +18,19 @@ Users do not see menu items that they do not have access to unless they are auth
 Deploy your application to Azure SUBMISSION
 
 
-
+<h4>Screen shot from WebAPI:</h4>
 <kbd>
-<strong>Screen shot from WebAPI:</strong>
 <img src="https://github.com/switch900/Comp3973_Assign_01/blob/master/BookApi.PNG" alt="Smiley face" width="800">
 </kbd>
 
 
-
+<h4>Screen shot of Login Page:</h4>
 <kbd>
-<strong>Screen shot of Login Page:</strong>
 <img src="https://github.com/switch900/Comp3973_Assign_01/blob/master/LoginPage.PNG" alt="Smiley face" width="800">
 </kbd>
 
 
-
+<h4>Screen shot of Client page:</h4>
 <kbd>
-<strong>Screen shot of Client page:</strong>
 <img src="https://github.com/switch900/Comp3973_Assign_01/blob/master/BookClient.PNG" alt="Smiley face" width="800">
 </kbd>
