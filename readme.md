@@ -16,3 +16,5 @@ Only authenticated users can access the book and book details views.
 To help the marker test your application, seed the appropriate identity framework database tables with the following user Email Password a@a.a P@$$w0rd
 Users do not see menu items that they do not have access to unless they are authenticated
 Deploy your application to Azure SUBMISSION
+
+<img src="https://github.com/switch900/Comp3973_Assign_01/blob/master/BookApi.PNG" alt="Smiley face" width="200">
