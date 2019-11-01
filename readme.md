@@ -17,4 +17,4 @@ To help the marker test your application, seed the appropriate identity framewor
 Users do not see menu items that they do not have access to unless they are authenticated
 Deploy your application to Azure SUBMISSION
 
-<img src="https://github.com/switch900/Comp3973_Assign_01/blob/master/BookApi.PNG" alt="Smiley face" width="200">
+<img src="https://github.com/switch900/Comp3973_Assign_01/blob/master/BookApi.PNG" alt="Smiley face" width="700">
