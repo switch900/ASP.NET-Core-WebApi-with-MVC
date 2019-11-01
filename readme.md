@@ -22,7 +22,7 @@ Deploy your application to Azure SUBMISSION
 <img src="https://github.com/switch900/Comp3973_Assign_01/blob/master/BookApi.PNG" alt="Smiley face" width="800">
 </div>
 
-<div style="border: 1px solid black">
+<div style="border: thin solid black">
 <strong>Screen shot of Login Page:</strong>
 <img src="https://github.com/switch900/Comp3973_Assign_01/blob/master/LoginPage.PNG" alt="Smiley face" width="800">
 </div>
