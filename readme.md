@@ -12,10 +12,14 @@ When the user clicks on a book, the second view displays details about that book
   o ISBN_10
 
 The names of students in the team should display on the home page.
+
 Only authenticated users can access the book and book details views.
+
 To help the marker test your application, seed the appropriate identity framework database tables with the following user Email Password a@a.a P@$$w0rd
+
 Users do not see menu items that they do not have access to unless they are authenticated
-Deploy your application to Azure SUBMISSION
+
+Deploy your application to Azure
 
 
 <h4>Screen shot from WebAPI:</h4>
